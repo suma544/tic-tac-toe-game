@@ -1,0 +1,329 @@
+Output captured from Google Colab (Python 3 runtime, g++ -std=c++17)
+Notebook: https://colab.research.google.com/github/suma544/tic-tac-toe-game/blob/main/Tic_Tac_Toe_Game.ipynb
+Run date: 2026-11-20
+
+### Cell 1 output
+Writing tic_tac_toe.cpp
+
+
+### Cell 2 output
+Compiled successfully
+
+
+### Cell 3 output
+Writing sample_input.txt
+
+
+### Cell 4 output
+=================================
+      TIC TAC TOE - MINI GAME
+=================================
+Board cells are numbered like this:
+     1 | 2 | 3
+    ---+---+---
+     4 | 5 | 6
+    ---+---+---
+     7 | 8 | 9
+
+
+----- MAIN MENU -----
+1. Player vs Player
+2. Player vs Computer
+3. Overall Statistics
+4. Exit
+Enter your choice: Enter Player 1 name (X): Enter Player 2 name (O): 
+========== ROUND 1 ==========
+Ravi is X, Priya is O. X goes first.
+     1 | 2 | 3
+    ---+---+---
+     4 | 5 | 6
+    ---+---+---
+     7 | 8 | 9
+
+Ravi (X), choose a cell 1-9: Move 1:
+     X | 2 | 3
+    ---+---+---
+     4 | 5 | 6
+    ---+---+---
+     7 | 8 | 9
+
+Priya (O), choose a cell 1-9:   Cell 1 is already taken! Try another.
+Priya (O), choose a cell 1-9:   Invalid cell! Choose a number from 1 to 9.
+Priya (O), choose a cell 1-9: Move 2:
+     X | O | 3
+    ---+---+---
+     4 | 5 | 6
+    ---+---+---
+     7 | 8 | 9
+
+Ravi (X), choose a cell 1-9: Move 3:
+     X | O | 3
+    ---+---+---
+     4 | X | 6
+    ---+---+---
+     7 | 8 | 9
+
+Priya (O), choose a cell 1-9: Move 4:
+     X | O | O
+    ---+---+---
+     4 | X | 6
+    ---+---+---
+     7 | 8 | 9
+
+Ravi (X), choose a cell 1-9: Move 5:
+     X | O | O
+    ---+---+---
+     4 | X | 6
+    ---+---+---
+     7 | 8 | X
+
+*** Ravi (X) WINS! ***
+------ SCOREBOARD ------
+Ravi (X): 1
+Priya (O): 0
+Draws: 0
+------------------------
+Play again? (y/n): 
+========== ROUND 2 ==========
+Ravi is X, Priya is O. X goes first.
+     1 | 2 | 3
+    ---+---+---
+     4 | 5 | 6
+    ---+---+---
+     7 | 8 | 9
+
+Ravi (X), choose a cell 1-9: Move 1:
+     X | 2 | 3
+    ---+---+---
+     4 | 5 | 6
+    ---+---+---
+     7 | 8 | 9
+
+Priya (O), choose a cell 1-9: Move 2:
+     X | O | 3
+    ---+---+---
+     4 | 5 | 6
+    ---+---+---
+     7 | 8 | 9
+
+Ravi (X), choose a cell 1-9: Move 3:
+     X | O | X
+    ---+---+---
+     4 | 5 | 6
+    ---+---+---
+     7 | 8 | 9
+
+Priya (O), choose a cell 1-9: Move 4:
+     X | O | X
+    ---+---+---
+     4 | O | 6
+    ---+---+---
+     7 | 8 | 9
+
+Ravi (X), choose a cell 1-9: Move 5:
+     X | O | X
+    ---+---+---
+     4 | O | 6
+    ---+---+---
+     7 | X | 9
+
+Priya (O), choose a cell 1-9: Move 6:
+     X | O | X
+    ---+---+---
+     4 | O | 6
+    ---+---+---
+     O | X | 9
+
+Ravi (X), choose a cell 1-9: Move 7:
+     X | O | X
+    ---+---+---
+     X | O | 6
+    ---+---+---
+     O | X | 9
+
+Priya (O), choose a cell 1-9: Move 8:
+     X | O | X
+    ---+---+---
+     X | O | O
+    ---+---+---
+     O | X | 9
+
+Ravi (X), choose a cell 1-9: Move 9:
+     X | O | X
+    ---+---+---
+     X | O | O
+    ---+---+---
+     O | X | X
+
+It's a DRAW! The board is full.
+------ SCOREBOARD ------
+Ravi (X): 1
+Priya (O): 0
+Draws: 1
+------------------------
+Play again? (y/n): 
+----- MAIN MENU -----
+1. Player vs Player
+2. Player vs Computer
+3. Overall Statistics
+4. Exit
+Enter your choice: Enter your name: 
+========== ROUND 1 ==========
+Ravi is X, Computer is O. X goes first.
+     1 | 2 | 3
+    ---+---+---
+     4 | 5 | 6
+    ---+---+---
+     7 | 8 | 9
+
+Ravi (X), choose a cell 1-9: Move 1:
+     X | 2 | 3
+    ---+---+---
+     4 | 5 | 6
+    ---+---+---
+     7 | 8 | 9
+
+Computer (O) chooses cell 5.
+Move 2:
+     X | 2 | 3
+    ---+---+---
+     4 | O | 6
+    ---+---+---
+     7 | 8 | 9
+
+Ravi (X), choose a cell 1-9: Move 3:
+     X | X | 3
+    ---+---+---
+     4 | O | 6
+    ---+---+---
+     7 | 8 | 9
+
+Computer (O) chooses cell 3.
+Move 4:
+     X | X | O
+    ---+---+---
+     4 | O | 6
+    ---+---+---
+     7 | 8 | 9
+
+Ravi (X), choose a cell 1-9: Move 5:
+     X | X | O
+    ---+---+---
+     X | O | 6
+    ---+---+---
+     7 | 8 | 9
+
+Computer (O) chooses cell 7.
+Move 6:
+     X | X | O
+    ---+---+---
+     X | O | 6
+    ---+---+---
+     O | 8 | 9
+
+*** Computer (O) WINS! You lose. Better luck next time! ***
+------ SCOREBOARD ------
+Ravi (X): 0
+Computer (O): 1
+Draws: 0
+------------------------
+Play again? (y/n): 
+========== ROUND 2 ==========
+Ravi is X, Computer is O. X goes first.
+     1 | 2 | 3
+    ---+---+---
+     4 | 5 | 6
+    ---+---+---
+     7 | 8 | 9
+
+Ravi (X), choose a cell 1-9: Move 1:
+     1 | 2 | 3
+    ---+---+---
+     4 | X | 6
+    ---+---+---
+     7 | 8 | 9
+
+Computer (O) chooses cell 1.
+Move 2:
+     O | 2 | 3
+    ---+---+---
+     4 | X | 6
+    ---+---+---
+     7 | 8 | 9
+
+Ravi (X), choose a cell 1-9: Move 3:
+     O | X | 3
+    ---+---+---
+     4 | X | 6
+    ---+---+---
+     7 | 8 | 9
+
+Computer (O) chooses cell 8.
+Move 4:
+     O | X | 3
+    ---+---+---
+     4 | X | 6
+    ---+---+---
+     7 | O | 9
+
+Ravi (X), choose a cell 1-9: Move 5:
+     O | X | 3
+    ---+---+---
+     4 | X | 6
+    ---+---+---
+     X | O | 9
+
+Computer (O) chooses cell 3.
+Move 6:
+     O | X | O
+    ---+---+---
+     4 | X | 6
+    ---+---+---
+     X | O | 9
+
+Ravi (X), choose a cell 1-9: Move 7:
+     O | X | O
+    ---+---+---
+     4 | X | X
+    ---+---+---
+     X | O | 9
+
+Computer (O) chooses cell 4.
+Move 8:
+     O | X | O
+    ---+---+---
+     O | X | X
+    ---+---+---
+     X | O | 9
+
+Ravi (X), choose a cell 1-9: Move 9:
+     O | X | O
+    ---+---+---
+     O | X | X
+    ---+---+---
+     X | O | X
+
+It's a DRAW! The board is full.
+------ SCOREBOARD ------
+Ravi (X): 0
+Computer (O): 1
+Draws: 1
+------------------------
+Play again? (y/n): 
+----- MAIN MENU -----
+1. Player vs Player
+2. Player vs Computer
+3. Overall Statistics
+4. Exit
+Enter your choice: 
+Games played : 4
+X wins       : 1
+O wins       : 1
+Draws        : 2
+
+----- MAIN MENU -----
+1. Player vs Player
+2. Player vs Computer
+3. Overall Statistics
+4. Exit
+Enter your choice: Thanks for playing Tic Tac Toe. Goodbye!
